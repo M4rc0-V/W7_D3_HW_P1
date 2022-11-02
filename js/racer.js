@@ -1,4 +1,5 @@
-
+const form = document.querySelector('form');
+const table = document.querySelector('table');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -29,14 +30,4 @@ form.addEventListener('submit', (e) => {
       console.log(error);
     });
 });
-
-
-
-
-
-
-
-
-
-
 
